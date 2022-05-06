@@ -18,7 +18,7 @@
  - npm install ts-node-dev -D
  - npm instal @types/ts-node-dev -D
 
-  1° Após o ts-node estiver instalado vamos adicionar ao nosso arquivo package.josn dentro dos scripts o codigo
+  1° Após o ts-node estiver instalado vamos adicionar ao nosso arquivo package.json dentro dos scripts o codigo
   
   "scripts":{
     "dev": "ts-node-dev src/app.ts "
@@ -100,5 +100,5 @@
     - Limpar automaticamente chamadas simuladas, instâncias, contextos e resultados antes de cada teste? sim
   
 # SWC
-  -yarn add --dev jest @swc/jest @swc/core
-  -npm install -D jest @swc/jest
+  - yarn add --dev jest @swc/jest @swc/core
+  - npm install -D jest @swc/jest
